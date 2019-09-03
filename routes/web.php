@@ -18,3 +18,4 @@ Route::group([
 ], function () {
     Route::get('/', 'HomeController@index')->name('home');
 });
+Route::post('/verify', 'VerifyController@index');
