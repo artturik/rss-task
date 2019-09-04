@@ -6,10 +6,11 @@ RSS Task
 * Laravel related extensions like: BCMath Ctype JSON Mbstring OpenSSL PDO XML
 
 # Setup
-1. Run `touch databases/database.sqlite` to create empty sqlite database or configure different DB source
-2. Run `composer install`
-3. Run `php artisan migrate`
-4. Run `php artisan serve` or use Apache or Nginx as server with default Laravel configuration
+1. Run `touch database/database.sqlite` to create empty sqlite database (make file readable and writable by webserver if you are using it) or configure different DB source
+2. (Optional) Copy file `.env.example` to `.env` and change configuration if you need it  
+3. Run `composer install`
+4. Run `php artisan migrate`
+5. Run `php artisan serve` or use Apache or Nginx as server with default Laravel configuration
 
 # Notable files
 
